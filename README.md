@@ -44,18 +44,13 @@ Além disso:
 
 * Os testes utilizam o padrão AAA (arrange, act, assert);
 * A construção de testes segue o princípio (red, green, refactoring);
-* Foi dado prioridade aos localizadores por id, css e css mais texto, visto que, o projeto não passará por internacionalização;
-* De início, o projeto não possui uma base isolada para automação, logo, foi criado o arquivo de teste ‘back-end/pre-teste/conf-base-teste.spec.js’ para garantir o funcionamento dos scripts de validação. Esse script está configurado para ser executado no início dos testes, devido às constantes alterações da base.
+* Foi dado prioridade aos localizadores por id, css e css mais texto, visto que, o projeto não passará por internacionalização.
 
 ## Dependências
 * Arquivo json
 
 ## Entrega Contínua 
 * Jenkins
-
-## Próximas Ações
-* Commitar os códigos de teste no repositório do produto final, visto que, os scripts de testes fazem parte do produto. Além disso, quando houver suítes de testes que cobrem todos os níveis (unitário, api e ponto a ponto), os códigos estarão estruturados em único lugar, dando mais clareza aos envolvidos no projeto.
-* Ter uma base específica para teste.
 
 Para mais informações, dê uma olhada no documento oficial do Protractor [http://www.protractortest.org/#/].
 
